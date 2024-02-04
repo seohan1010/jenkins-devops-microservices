@@ -32,6 +32,17 @@ pipeline{
 			}
 		}
 	}
+	
+	
+	post{
+		always{s
+			echo ''
+		}success{
+			echo 'I run when you successful'
+		}failure{
+			echo 'I run when you fail'	
+		}
+	}
 
 
 }
