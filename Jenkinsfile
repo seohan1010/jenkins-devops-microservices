@@ -62,7 +62,7 @@ pipeline{
 
 						//"docker build -t in28min/currency-exchange-devops:$env.BUILD_TAG"	
 						script{
-							dockerImage = docker.build("seohan1010/currency-exchange-devops:${env.BUILD_TAG}") 
+							dockerImage = docker.build("seohan1010/hello-world-java:${env.BUILD_TAG}") 
 						}
 				}
 		}
